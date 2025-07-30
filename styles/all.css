@@ -1,0 +1,25 @@
+:root {
+    --escuro: black;
+    --claro: white;
+    --primario: blue;
+}
+
+header {
+    border-bottom: 1px solid var(--primario)!important;
+}
+
+.temaclaro {
+    background-color: var(--claro) !important;
+    color: var(--escuro) !important;
+    transition: 1s;
+}
+
+.temaescuro {
+    background-color: var(--escuro) !important;
+    color: var(--claro) !important;
+    transition: 1s;
+}
+.temaescuro a{
+    color: var(--claro)!important; 
+     
+}
